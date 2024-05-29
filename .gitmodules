@@ -1,0 +1,3 @@
+[submodule "neuro-vector-symbolic-architectures"]
+	path = nvsa
+	url = git@github.com:Zeldax64/neuro-vector-symbolic-architectures.git
