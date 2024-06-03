@@ -25,6 +25,9 @@ function download_raven() {
     rm "$dataset"
 
     cd $wd
+
+    # Download dataset preprocessing script
+    wget https://raw.githubusercontent.com/WellyZhang/PrAE/main/src/auxiliary/preprocess_rule.py
 }
 
 function setup_venv() {
